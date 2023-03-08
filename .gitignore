@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+*.lcov
+
+# Dependency directories
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.test
+
+# typechain
+typechain
+
+# Hardhat files
+cache
+artifacts
+
+# Certain ABI files
+abi/@openzeppelin
+abi/contracts/test
+abi/contracts/erc721
+abi/contracts/interfaces
+
+# Build files
+dist
+
+mint-dev.sh
+mint-prod.sh
+mint-staging.sh
+
+broadcast/
